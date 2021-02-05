@@ -1,0 +1,9 @@
+[package]
+name = "cfind"
+version = "0.1.0"
+authors = ["spidax <spidax1881@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+term = "*"
+structopt = "0.3.13"
