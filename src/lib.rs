@@ -8,6 +8,7 @@ pub struct Config {
     pub case_sensitive: bool,
 }
 
+
 impl Config {
     pub fn new(mut args: std::env::Args) -> Result<Config, &'static str> {
         args.next();
